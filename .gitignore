@@ -1,0 +1,113 @@
+# ===================================================================
+# Security - CRITICAL
+# Never commit secret keys, passwords, or credentials.
+# ===================================================================
+.env
+.env*
+*.env
+secrets.ini
+*.pem
+*.key
+
+
+# ===================================================================
+# Python (For Scrapers, Parsers, or Backend)
+# ===================================================================
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# ===================================================================
+# Node.js (For Backend or Frontend)
+# ===================================================================
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other
+package-lock.json
+.npm
+.eslintcache
+*.tgz
+
+
+# ===================================================================
+# React Native (Covers iOS and Android)
+# ===================================================================
+# Bundler
+*.jsbundle
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/app/src/main/assets/index.android.bundle
+android/app/build/intermediates/
+android/app/build/outputs/
+android/app/build/generated/
+
+# iOS
+ios/build/
+ios/Pods/
+*.xccheckout
+*.xcworkspace
+*.xcuserdatad
+# This is a common one to accidentally commit
+# Re-add it if you *need* it, but try to avoid
+# project.xcworkspace/
+
+# Expo
+.expo/
+*.jks
+*.p12
+*.key
+*.mobileprovision
+
+
+# ===================================================================
+# Common OS & Editor Files
+# ===================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Code Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
